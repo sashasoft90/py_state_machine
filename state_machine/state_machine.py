@@ -32,7 +32,7 @@ class State:
         self.do_by_entry = do_by_entry
         self.do_by_exit = do_by_exit
         self.transition = list()
-        self.identifier =
+        self.identifier = None
         if not isinstance(parent, State):
             raise InvalidParentState(parent)
 
