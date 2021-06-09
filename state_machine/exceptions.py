@@ -18,3 +18,6 @@ package with exception
 
 class StateMachineError(Exception):
     """Base exception for this project, all exceptions that can be raised inherit from this class"""
+
+class InvalidParentState(Exception):
+    """todo"""
