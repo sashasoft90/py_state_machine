@@ -1,0 +1,111 @@
+@startuml
+'scale 350 width
+[*] --> init_state
+
+legend left
+**Input:**
+but1
+but2
+reset
+**Output**
+amp1
+amp2
+pedestrian_amp1
+pedestrian_amp2
+**Parameter**
+TIME_G = 60
+TIME_Y = 5
+TIME_RY = 3
+TIME_R = 2
+timer = 0
+but1_active = 0
+but2_active = 0
+**ENUM**
+{
+    GREEN
+    RED_YELLOW
+    RED
+    YELLOW
+}
+end legend
+
+state init_state {
+    init_state: **entry**:\n timer = 0 \n but1_active = 0 \n but2_active = 0
+    init_state -> horizontal
+}
+
+state horizontal {
+    horizontal -> all_red: **1** [timer==0 and amp1==YELLOW]
+    horizontal --> horizontal: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    horizontal: **entry**:\n last_state=horizontal
+    horizontal: **exit**:\n but_active=0\n
+    [*] -left-> h_red_yellow
+     state h_red_yellow {
+        h_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        h_red_yellow: **do**:\n timer--
+
+        h_red_yellow -down-> h_green: **1** [timer==0]
+    }
+
+    state h_green {
+        h_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        h_green: **do**:\n timer--
+
+        h_green -right-> h_green_last_5: **1** [timer==5]
+    }
+
+    state h_green_last_5 {
+        h_green_last_5: **entry**:\n pedestrian_amp1=RED
+        h_green_last_5: **do**:\n timer--
+
+        h_green_last_5 -up-> h_yellow: **1** [timer==0]
+    }
+
+    state h_yellow {
+        h_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        h_yellow: **do**:\n timer--
+    }
+}
+
+state all_red {
+    all_red: **entry**:\n timer=TIME_R\n amp1=RED\n pedestrian_amp1=RED\n amp2=RED\n pedestrian_amp2=RED
+    all_red: **do**:\n timer--
+    all_red --> horizontal: **1** [timer==0 and last_state=vertical]
+    all_red --> vertical: **2** [timer==0 and last_state=horizontal]
+}
+
+state vertical {
+    vertical -> all_red: **1** [timer==0 and amp1==YELLOW]
+    vertical --> vertical: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    vertical: **entry**:\n last_state=horizontal
+    vertical: **exit**:\n but_active=0\n
+    [*] -left-> v_red_yellow
+     state v_red_yellow {
+        v_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        v_red_yellow: **do**:\n timer--
+
+        v_red_yellow -down-> v_green: **1** [timer==0]
+    }
+
+    state v_green {
+        v_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        v_green: **do**:\n timer--
+
+        v_green -right-> v_green_last_5: **1** [timer==5]
+    }
+
+    state v_green_last_5 {
+        v_green_last_5: **entry**:\n pedestrian_amp1=RED
+        v_green_last_5: **do**:\n timer--
+
+        v_green_last_5 -up-> v_yellow: **1** [timer==0]
+    }
+
+    state v_yellow {
+        v_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        v_yellow: **do**:\n timer--
+    }
+}
+@enduml

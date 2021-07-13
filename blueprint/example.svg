@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1734px" preserveAspectRatio="none" style="width:965px;height:1734px;background:#FFFFFF;" version="1.1" viewBox="0 0 965 1734" width="965px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qiea1osdk5bl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="61" cy="16" fill="#000000" filter="url(#f1qiea1osdk5bl)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="init_state"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="97.9844" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="108" x="7" y="254.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="115" y1="282.1094" y2="282.1094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="32.5" y="274.0332">init_state</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="12" y="299.5664">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="41" y="299.5664">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="48" x="15" y="314.6602">timer = 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="15" y="329.7539">but1_active = 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="15" y="344.8477">but2_active = 0</text></g><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="433.25" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="448.5" x="150.5" y="87"/><rect fill="#FFFFFF" height="319.1719" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="442.5" x="153.5" y="198.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="150.5" x2="599" y1="195.0781" y2="195.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="150.5" x2="599" y1="114.6094" y2="114.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="344.25" y="106.5332">horizontal</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="155.5" y="127.0664">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="184.5" y="127.0664">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="158.5" y="142.1602">last_state=horizontal</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="155.5" y="157.2539">exit</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="176.5" y="157.2539">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="158.5" y="172.3477">but_active=0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="158.5" y="187.4414"/><ellipse cx="348" cy="263.5781" fill="#000000" filter="url(#f1qiea1osdk5bl)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="horizontal.h_red_yellow"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="113.0781" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="144" x="176" y="207.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="176" x2="320" y1="234.6875" y2="234.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="206.5" y="226.6113">h_red_yellow</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="181" y="252.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="210" y="252.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="184" y="267.2383">amp1=RED_YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="184" y="282.332">timer=TIME_RY</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="181" y="297.4258">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="195" y="297.4258">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="184" y="312.5195">timer--</text></g><g id="horizontal.h_red_yellow.h_green"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="128.1719" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="171" x="162.5" y="374.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="162.5" x2="333.5" y1="401.6875" y2="401.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="221.5" y="393.6113">h_green</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="167.5" y="419.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="196.5" y="419.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="170.5" y="434.2383">amp1=GREEN</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="148" x="170.5" y="449.332">pedestrian_amp1=GREEN</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="170.5" y="464.4258">timer=TIME_G</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="167.5" y="479.5195">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="181.5" y="479.5195">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="170.5" y="494.6133">timer--</text></g><g id="horizontal.h_green.h_green_last_5"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="97.9844" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="154" x="424" y="389.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="424" x2="578" y1="416.6875" y2="416.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="451.5" y="408.6113">h_green_last_5</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="429" y="434.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="458" y="434.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="131" x="432" y="449.2383">pedestrian_amp1=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="429" y="464.332">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="443" y="464.332">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="432" y="479.4258">timer--</text></g><g id="horizontal.h_green_last_5.h_yellow"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="113.0781" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="111" x="445.5" y="207.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="445.5" x2="556.5" y1="234.6875" y2="234.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="474" y="226.6113">h_yellow</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="450.5" y="252.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="479.5" y="252.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="453.5" y="267.2383">amp1=YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="453.5" y="282.332">timer=TIME_Y</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="450.5" y="297.4258">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="464.5" y="297.4258">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="453.5" y="312.5195">timer--</text></g><!--MD5=[a50750336456718b9cee70a0f12ff8d1]
+reverse link h_red_yellow to *start*horizontal--><path d="M325.412,263.5781 C329.474,263.5781 333.537,263.5781 337.6,263.5781 " fill="none" id="h_red_yellow-backto-*start*horizontal" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="320.266,263.5781,329.266,267.5781,325.266,263.5781,329.266,259.5781,320.266,263.5781" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[76e81e8c477b01eebb63d415f3c895fd]
+link h_red_yellow to h_green--><path d="M248,320.1081 C248,335.5041 248,352.4041 248,368.4531 " fill="none" id="h_red_yellow-to-h_green" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="248,373.8591,252,364.8591,248,368.8591,244,364.8591,248,373.8591" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="249" y="352.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="260" y="352.5732">[timer==0]</text><!--MD5=[feeaac50800d014f48a57079b73cb26c]
+link h_green to h_green_last_5--><path d="M333.654,438.0781 C361.185,438.0781 391.607,438.0781 418.878,438.0781 " fill="none" id="h_green-to-h_green_last_5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="423.932,438.0781,414.932,434.0781,418.932,438.0781,414.932,442.0781,423.932,438.0781" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="343.25" y="431.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="354.25" y="431.5732">[timer==5]</text><!--MD5=[5db226049f5d147f46c4734f74048c5b]
+reverse link h_yellow to h_green_last_5--><path d="M501,325.3551 C501,346.1931 501,369.2101 501,388.9111 " fill="none" id="h_yellow-backto-h_green_last_5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="501,320.1081,497,329.1081,501,325.1081,505,329.1081,501,320.1081" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="502" y="352.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="513" y="352.5732">[timer==0]</text><g id="horizontal.all_red"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="158.3594" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="154" x="297" y="598"/><line style="stroke:#A80036;stroke-width:1.5;" x1="297" x2="451" y1="625.6094" y2="625.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="352.5" y="617.5332">all_red</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="302" y="643.0664">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="331" y="643.0664">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="305" y="658.1602">timer=TIME_R</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="305" y="673.2539">amp1=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="131" x="305" y="688.3477">pedestrian_amp1=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="65" x="305" y="703.4414">amp2=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="131" x="305" y="718.5352">pedestrian_amp2=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="302" y="733.6289">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="316" y="733.6289">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="305" y="748.7227">timer--</text></g><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="433.25" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="448.5" x="149.5" y="834"/><rect fill="#FFFFFF" height="319.1719" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="442.5" x="152.5" y="945.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="149.5" x2="598" y1="942.0781" y2="942.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="149.5" x2="598" y1="861.6094" y2="861.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="351.25" y="853.5332">vertical</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="154.5" y="874.0664">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="183.5" y="874.0664">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="114" x="157.5" y="889.1602">last_state=horizontal</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="21" x="154.5" y="904.2539">exit</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="175.5" y="904.2539">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="157.5" y="919.3477">but_active=0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="0" x="157.5" y="934.4414"/><ellipse cx="347" cy="1010.5781" fill="#000000" filter="url(#f1qiea1osdk5bl)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="vertical.v_red_yellow"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="113.0781" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="144" x="175" y="954.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="175" x2="319" y1="981.6875" y2="981.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="206" y="973.6113">v_red_yellow</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="180" y="999.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="209" y="999.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="183" y="1014.2383">amp1=RED_YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="183" y="1029.332">timer=TIME_RY</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="180" y="1044.4258">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="194" y="1044.4258">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="183" y="1059.5195">timer--</text></g><g id="vertical.v_red_yellow.v_green"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="128.1719" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="171" x="161.5" y="1121.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="161.5" x2="332.5" y1="1148.6875" y2="1148.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="221" y="1140.6113">v_green</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="166.5" y="1166.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="195.5" y="1166.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="82" x="169.5" y="1181.2383">amp1=GREEN</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="148" x="169.5" y="1196.332">pedestrian_amp1=GREEN</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="169.5" y="1211.4258">timer=TIME_G</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="166.5" y="1226.5195">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="180.5" y="1226.5195">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="169.5" y="1241.6133">timer--</text></g><g id="vertical.v_green.v_green_last_5"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="97.9844" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="154" x="423" y="1136.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="423" x2="577" y1="1163.6875" y2="1163.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="451" y="1155.6113">v_green_last_5</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="428" y="1181.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="457" y="1181.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="131" x="431" y="1196.2383">pedestrian_amp1=RED</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="428" y="1211.332">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="442" y="1211.332">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="431" y="1226.4258">timer--</text></g><g id="vertical.v_green_last_5.v_yellow"><rect fill="#FEFECE" filter="url(#f1qiea1osdk5bl)" height="113.0781" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="111" x="444.5" y="954.0781"/><line style="stroke:#A80036;stroke-width:1.5;" x1="444.5" x2="555.5" y1="981.6875" y2="981.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="473.5" y="973.6113">v_yellow</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="29" x="449.5" y="999.1445">entry</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="478.5" y="999.1445">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="452.5" y="1014.2383">amp1=YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="452.5" y="1029.332">timer=TIME_Y</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="14" x="449.5" y="1044.4258">do</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="3" x="463.5" y="1044.4258">:</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="452.5" y="1059.5195">timer--</text></g><!--MD5=[fa1efc0eefc98cf9a8bf30c4a0646af8]
+reverse link v_red_yellow to *start*vertical--><path d="M324.412,1010.5781 C328.474,1010.5781 332.537,1010.5781 336.6,1010.5781 " fill="none" id="v_red_yellow-backto-*start*vertical" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="319.266,1010.5781,328.266,1014.5781,324.266,1010.5781,328.266,1006.5781,319.266,1010.5781" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8bb4ba3669d59e2e95242690d37c35ac]
+link v_red_yellow to v_green--><path d="M247,1067.1081 C247,1082.5041 247,1099.4041 247,1115.4531 " fill="none" id="v_red_yellow-to-v_green" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="247,1120.8591,251,1111.8591,247,1115.8591,243,1111.8591,247,1120.8591" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="248" y="1099.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="259" y="1099.5732">[timer==0]</text><!--MD5=[01379325d5e13815a8407affafbb6da8]
+link v_green to v_green_last_5--><path d="M332.654,1185.0781 C360.185,1185.0781 390.607,1185.0781 417.878,1185.0781 " fill="none" id="v_green-to-v_green_last_5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="422.932,1185.0781,413.932,1181.0781,417.932,1185.0781,413.932,1189.0781,422.932,1185.0781" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="342.25" y="1178.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="353.25" y="1178.5732">[timer==5]</text><!--MD5=[96cc6b1710c09be0f7b1c03a6101b5ab]
+reverse link v_yellow to v_green_last_5--><path d="M500,1072.3551 C500,1093.1931 500,1116.2101 500,1135.9111 " fill="none" id="v_yellow-backto-v_green_last_5" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="500,1067.1081,496,1076.1081,500,1072.1081,504,1076.1081,500,1067.1081" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="501" y="1099.5732">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="60" x="512" y="1099.5732">[timer==0]</text><!--MD5=[af8fa1cf6ed6ef6f45260aec2f5dc4f7]
+link *start to init_state--><path d="M61,26.18 C61,59.9 61,178.65 61,249.03 " fill="none" id="*start-to-init_state" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="61,254.43,65,245.43,61,249.43,57,245.43,61,254.43" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fa3dad7e4c3db16cf67e91427769c39f]
+link init_state to horizontal--><path d="M115.275,303.5 C125.211,303.5 135.146,303.5 145.082,303.5 " fill="none" id="init_state-to-horizontal" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="150.277,303.5,141.277,299.5,145.277,303.5,141.277,307.5,150.277,303.5" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[2fdee20efc06c3562ebed56b90539abe]
+link horizontal to all_red--><path d="M257.492,520.243 C254.253,530.16 251.391,540.104 249,550 C240.86,583.686 263.999,612.093 292.504,633.357 " fill="none" id="horizontal-to-all_red" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="296.746,636.443,291.8202,627.9144,292.7024,633.5021,287.1147,634.3842,296.746,636.443" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="250" y="564.4951">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="261" y="564.4951">[timer==0 and amp1==YELLOW]</text><!--MD5=[a3ef9dbfb56f53f846306dc532ada2f9]
+link all_red to horizontal--><path d="M443.868,597.758 C449.578,588.224 454.492,578.223 458,568 C462.748,554.162 465.186,539.88 465.797,525.457 " fill="none" id="all_red-to-horizontal" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="465.941,520.137,461.7007,529.0263,465.8067,525.1352,469.6978,529.2412,465.941,520.137" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="463" y="564.4951">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="194" x="474" y="564.4951">[timer==0 and last_state=vertical]</text><!--MD5=[10d865977b420733909292e83dafef04]
+link horizontal to horizontal--><path d="M599.668,266.36 C621.005,273.944 634.5,286.323 634.5,303.5 C634.5,319.335 623.031,331.093 604.523,338.773 " fill="none" id="horizontal-to-horizontal" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="599.668,340.638,609.5038,341.1456,604.3356,338.8455,606.6358,333.6774,599.668,340.638" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="640.5" y="300.9951">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="651.5" y="300.9951">[but2==1 and but_active==0 and amp1==GREEN] /</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="713.5" y="317.3467">but_active=1; timer=timer*0.5</text><!--MD5=[37a69d0f2701cb72aeecb0e5871fe951]
+link all_red to vertical--><path d="M296.677,711.122 C259.714,732.574 225.524,763.984 236,804 C238.153,812.226 240.651,820.467 243.436,828.683 " fill="none" id="all_red-to-vertical" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="245.207,833.795,246.0396,823.9814,243.5698,829.0706,238.4806,826.6009,245.207,833.795" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="237" y="800.4951">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="210" x="248" y="800.4951">[timer==0 and last_state=horizontal]</text><!--MD5=[269d3be9d47970dbdd7af52df9280fe1]
+link vertical to all_red--><path d="M475.468,833.95 C475.353,817.702 472.782,801.577 467,786 C463.658,776.997 459.191,768.241 454.018,759.865 " fill="none" id="vertical-to-all_red" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="451.074,755.251,452.5423,764.9898,453.7632,759.4662,459.2867,760.6871,451.074,755.251" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="472" y="800.4951">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="192" x="483" y="800.4951">[timer==0 and amp1==YELLOW]</text><!--MD5=[286fc4e81f86f00f630867144e5c836e]
+link vertical to vertical--><path d="M598.668,1012.154 C620.005,1019.983 633.5,1032.765 633.5,1050.5 C633.5,1066.85 622.031,1078.99 603.523,1086.92 " fill="none" id="vertical-to-vertical" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="598.668,1088.846,608.5087,1089.2477,603.3161,1087.0033,605.5604,1081.8108,598.668,1088.846" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="639.5" y="1047.9951">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="297" x="650.5" y="1047.9951">[but2==1 and but_active==0 and amp1==GREEN] /</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="712.5" y="1064.3467">but_active=1; timer=timer*0.5</text><rect fill="#DDDDDD" height="432.625" rx="5" ry="5" style="stroke:#000000;stroke-width:1.0;" width="123" x="8" y="1286.25"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="14" y="1305.7832">Input:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="14" y="1323.3926">but1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="14" y="1341.002">but2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="14" y="1358.6113">reset</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="48" x="14" y="1376.2207">Output</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="14" y="1393.8301">amp1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="14" y="1411.4395">amp2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="14" y="1429.0488">pedestrian_amp1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="14" y="1446.6582">pedestrian_amp2</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="72" x="14" y="1464.2676">Parameter</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="14" y="1481.877">TIME_G = 60</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="14" y="1499.4863">TIME_Y = 5</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="14" y="1517.0957">TIME_RY = 3</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="14" y="1534.7051">TIME_R = 2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="14" y="1552.3145">timer = 0</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="14" y="1569.9238">but1_active = 0</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="97" x="14" y="1587.5332">but2_active = 0</text><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="42" x="14" y="1605.1426">ENUM</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="14" y="1622.752">{</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="30" y="1640.3613">GREEN</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="30" y="1657.9707">RED_YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="30" y="1675.5801">RED</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="30" y="1693.1895">YELLOW</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="14" y="1710.7988">}</text><!--MD5=[bc1b2feb8fa6b09dc36a9f7bf108b3d0]
+@startuml
+'scale 350 width
+[*] - -> init_state
+
+legend left
+**Input:**
+but1
+but2
+reset
+**Output**
+amp1
+amp2
+pedestrian_amp1
+pedestrian_amp2
+**Parameter**
+TIME_G = 60
+TIME_Y = 5
+TIME_RY = 3
+TIME_R = 2
+timer = 0
+but1_active = 0
+but2_active = 0
+**ENUM**
+{
+    GREEN
+    RED_YELLOW
+    RED
+    YELLOW
+}
+end legend
+
+state init_state {
+    init_state: **entry**:\n timer = 0 \n but1_active = 0 \n but2_active = 0
+    init_state -> horizontal
+}
+
+state horizontal {
+    horizontal -> all_red: **1** [timer==0 and amp1==YELLOW]
+    horizontal - -> horizontal: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    horizontal: **entry**:\n last_state=horizontal
+    horizontal: **exit**:\n but_active=0\n
+    [*] -left-> h_red_yellow
+     state h_red_yellow {
+        h_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        h_red_yellow: **do**:\n timer- -
+
+        h_red_yellow -down-> h_green: **1** [timer==0]
+    }
+
+    state h_green {
+        h_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        h_green: **do**:\n timer- -
+
+        h_green -right-> h_green_last_5: **1** [timer==5]
+    }
+
+    state h_green_last_5 {
+        h_green_last_5: **entry**:\n pedestrian_amp1=RED
+        h_green_last_5: **do**:\n timer- -
+
+        h_green_last_5 -up-> h_yellow: **1** [timer==0]
+    }
+
+    state h_yellow {
+        h_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        h_yellow: **do**:\n timer- -
+    }
+}
+
+state all_red {
+    all_red: **entry**:\n timer=TIME_R\n amp1=RED\n pedestrian_amp1=RED\n amp2=RED\n pedestrian_amp2=RED
+    all_red: **do**:\n timer- -
+    all_red - -> horizontal: **1** [timer==0 and last_state=vertical]
+    all_red - -> vertical: **2** [timer==0 and last_state=horizontal]
+}
+
+state vertical {
+    vertical -> all_red: **1** [timer==0 and amp1==YELLOW]
+    vertical - -> vertical: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    vertical: **entry**:\n last_state=horizontal
+    vertical: **exit**:\n but_active=0\n
+    [*] -left-> v_red_yellow
+     state v_red_yellow {
+        v_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        v_red_yellow: **do**:\n timer- -
+
+        v_red_yellow -down-> v_green: **1** [timer==0]
+    }
+
+    state v_green {
+        v_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        v_green: **do**:\n timer- -
+
+        v_green -right-> v_green_last_5: **1** [timer==5]
+    }
+
+    state v_green_last_5 {
+        v_green_last_5: **entry**:\n pedestrian_amp1=RED
+        v_green_last_5: **do**:\n timer- -
+
+        v_green_last_5 -up-> v_yellow: **1** [timer==0]
+    }
+
+    state v_yellow {
+        v_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        v_yellow: **do**:\n timer- -
+    }
+}
+@enduml
+
+@startuml
+[*] - -> init_state
+
+legend left
+**Input:**
+but1
+but2
+reset
+**Output**
+amp1
+amp2
+pedestrian_amp1
+pedestrian_amp2
+**Parameter**
+TIME_G = 60
+TIME_Y = 5
+TIME_RY = 3
+TIME_R = 2
+timer = 0
+but1_active = 0
+but2_active = 0
+**ENUM**
+{
+    GREEN
+    RED_YELLOW
+    RED
+    YELLOW
+}
+end legend
+
+state init_state {
+    init_state: **entry**:\n timer = 0 \n but1_active = 0 \n but2_active = 0
+    init_state -> horizontal
+}
+
+state horizontal {
+    horizontal -> all_red: **1** [timer==0 and amp1==YELLOW]
+    horizontal - -> horizontal: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    horizontal: **entry**:\n last_state=horizontal
+    horizontal: **exit**:\n but_active=0\n
+    [*] -left-> h_red_yellow
+     state h_red_yellow {
+        h_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        h_red_yellow: **do**:\n timer- -
+
+        h_red_yellow -down-> h_green: **1** [timer==0]
+    }
+
+    state h_green {
+        h_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        h_green: **do**:\n timer- -
+
+        h_green -right-> h_green_last_5: **1** [timer==5]
+    }
+
+    state h_green_last_5 {
+        h_green_last_5: **entry**:\n pedestrian_amp1=RED
+        h_green_last_5: **do**:\n timer- -
+
+        h_green_last_5 -up-> h_yellow: **1** [timer==0]
+    }
+
+    state h_yellow {
+        h_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        h_yellow: **do**:\n timer- -
+    }
+}
+
+state all_red {
+    all_red: **entry**:\n timer=TIME_R\n amp1=RED\n pedestrian_amp1=RED\n amp2=RED\n pedestrian_amp2=RED
+    all_red: **do**:\n timer- -
+    all_red - -> horizontal: **1** [timer==0 and last_state=vertical]
+    all_red - -> vertical: **2** [timer==0 and last_state=horizontal]
+}
+
+state vertical {
+    vertical -> all_red: **1** [timer==0 and amp1==YELLOW]
+    vertical - -> vertical: **2** [but2==1 and but_active==0 and amp1==GREEN] / \n but_active=1; timer=timer*0.5
+
+    vertical: **entry**:\n last_state=horizontal
+    vertical: **exit**:\n but_active=0\n
+    [*] -left-> v_red_yellow
+     state v_red_yellow {
+        v_red_yellow: **entry**:\n amp1=RED_YELLOW\n timer=TIME_RY
+        v_red_yellow: **do**:\n timer- -
+
+        v_red_yellow -down-> v_green: **1** [timer==0]
+    }
+
+    state v_green {
+        v_green: **entry**:\n amp1=GREEN\n pedestrian_amp1=GREEN\n timer=TIME_G
+        v_green: **do**:\n timer- -
+
+        v_green -right-> v_green_last_5: **1** [timer==5]
+    }
+
+    state v_green_last_5 {
+        v_green_last_5: **entry**:\n pedestrian_amp1=RED
+        v_green_last_5: **do**:\n timer- -
+
+        v_green_last_5 -up-> v_yellow: **1** [timer==0]
+    }
+
+    state v_yellow {
+        v_yellow: **entry**:\n amp1=YELLOW\n timer=TIME_Y
+        v_yellow: **do**:\n timer- -
+    }
+}
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>
